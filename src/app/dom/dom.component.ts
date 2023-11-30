@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 //Ejercicio3
 // @ts-ignore
-import {changeSize, countWords, yellowSubmarine} from "./funcions.js";
+import {changeSize, countWords, imagenloca, yellowSubmarine} from "./funcions.js";
 
 @Component({
   selector: 'app-dom',
@@ -28,8 +28,7 @@ constructor() {
     //Ejercicio6
     let palabras = document.getElementById("count")!
     palabras.innerHTML = countWords()
-
-
-
+//Ex7
+   imagenloca()
   }
 }

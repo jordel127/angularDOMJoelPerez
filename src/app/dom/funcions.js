@@ -9,4 +9,7 @@ export function countWords() {
   const palabrasContadas = texto.trim().split(/\s+/).length;
   return palabrasContadas;
 }
-
+export  function  imagenloca(){
+  let images = document.getElementById("boxImage")
+  images.innerHTML = '<img src="https://img.desmotivaciones.es/201912/chiste-supe-imagenes.jpg">'
+}
